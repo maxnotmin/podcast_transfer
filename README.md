@@ -8,7 +8,9 @@ Airflow Server (the scheduler)
 _apache airflow will run on a schedule that will run every day at 1am to run the main.py file to perform the following operations_
 
 **Tech Install Cards** on [Digital Ocean](https://www.digitalocean.com/) Droplets
-+ Install and Configure Apache Airflow (Used to schedule and execute python code).  | _points_: **13** |  _this is new technology and I must determine the best way install and replicate installation. Examine use of Docker_
++ Determine if: Apache Airflow or Celery is the correct scheduler for this project. | _points_: **8** |
++ Install and Configure Apache Airflow (Used to schedule and execute python code).  | _points_: **20** |  _this is new technology and I must determine the best way install and replicate installation. Examine use of Docker_
++ Install and Configure Celery (Used to schedule and execute python code).  | _points_: **13** 
 + Install can Configure Email Server (Used to send notifications of executed scripts) | _points_: **13** |
 + Install PostgreSQL (Used to log file transfers) | _points_: **13** |
 
