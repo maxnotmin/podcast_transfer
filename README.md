@@ -10,9 +10,9 @@ _apache airflow will run on a schedule that will run every day at 1am to run the
 **Tech Install Cards** on [Digital Ocean](https://www.digitalocean.com/) Droplets
 + Determine if: Apache Airflow or Celery is the correct scheduler for this project. | _points_: **8** |
 + Install and Configure Apache Airflow (Used to schedule and execute python code).  | _points_: **20** |  _this is new technology and I must determine the best way install and replicate installation. Examine use of Docker_
++ + Determine is RabbitMQ will be required for current or future scheduling | _points_: **8** |
 + Install and Configure Celery (Used to schedule and execute python code).  | _points_: **13** 
-+ Install can Configure Email Server (Used to send notifications of executed scripts) | _points_: **13** |
-+ Install PostgreSQL (Used to log file transfers) | _points_: **13** |
++ Install MySQL or PostgreSQL (Used to log file transfers) | _points_: **13** |
 
 **Programming Story Cards**
 1. Load INI File (INI file contains all URL to target RSS Feeds) and create in memory list()
@@ -31,5 +31,5 @@ _apache airflow will run on a schedule that will run every day at 1am to run the
 4. Write File Transfer Information to Database
     - **Cards**:
 
-5. Email Notification of status of file transfer
+5. Notification of status of file transfer
     - **Cards**:
