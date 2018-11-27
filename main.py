@@ -1,16 +1,20 @@
 from rss_fetch import CheckFeeds
+from load_config import load_section
 
+#LOAD INI CONFIG TO GET ALL THE RSS URLs
+THE_FEEDS = load_section()
 
+print("THE FEEDS: ", THE_FEEDS)
 test_feed_url = 'http://ourbigdumbmouth.libsyn.com/rss'
 
 
-def run():
+def run_get_feed(the_feed_url):
     """
     do stuff
     :return:
     """
     print("TEST MAIN |")
-    test = CheckFeeds(feed_url=test_feed_url)
+    test = CheckFeeds(feed_url=the_feed_url)
     test.rss_parse_most_recent()
     print("SEE DICT: ", test.podcast_obj)
 
@@ -29,11 +33,5 @@ def run():
         print(i)
 
 
-    #test.rss_download_most_recent_ep()
-
-
-
-    pass
-
 if __name__ == "__main__":
-    run()
+    run_config()
