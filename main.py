@@ -1,6 +1,8 @@
 from rss_fetch import CheckFeeds
 from load_config import load_section
 
+
+
 #LOAD INI CONFIG TO GET ALL THE RSS URLs
 THE_FEEDS = load_section()
 

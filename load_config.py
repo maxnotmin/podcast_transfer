@@ -1,8 +1,6 @@
 import os, sys
 import configparser
 
-SHOW_HOLDER = []
-
 Config = configparser.ConfigParser()
 loaded_config = Config.read('podcasts.ini')
 

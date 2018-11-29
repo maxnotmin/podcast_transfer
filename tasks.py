@@ -2,7 +2,7 @@
 import os
 import sys
 from celery import Celery
-from db_con import *
+from celery_db import *
 
 """
 This is the main file that will import all the other methods to be run as tasks
